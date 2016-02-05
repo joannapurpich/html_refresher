@@ -1,10 +1,50 @@
 
-h1{
+.headline{
 	font-family: Arial;
-	font-size: 24 px; 
+	font-size: 50px;
+	font-style: bold;
+	margin-right: auto;
 }
-p {
+
+.byline{
 	font-family: Arial;
-	font-size: 18 px; 
+	font-size: 25px;
+	margin-right: 20px;
+}
+
+.image{
+	display: block;
+	width:40%;
+	max-width: 600px;
+	height: auto;
+	margin:right;
+	padding-bottom: 5px;
+}
+
+.image_caption{
+	font-family: Arial;
+	font-size: 15px;
+	font-style: italic;
+	line-height: 1.225;
+}
+
+.subhead{
+	font-family: Arial;
+	font-size: 35px;
+	border-top: 1px solid #eee;
+	padding-top: 20px;
+	margin: 20px;
+}
+
+.body_text{
+	font-family: Arial;
+	font-size: 20px; 
+	width:100%;
+	max-width: 800px;
+	height: auto;
+	margin: 20px;
+	
 	
 }
+
+
